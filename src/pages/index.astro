@@ -8,11 +8,13 @@ import Competencias from "../components/Competencias.astro"
 ---
 
 <Layout title="Arturo Rojas - Portfolio">
-    <Header/>
-    <article class="flex flex-col space-y-8 mt-8">
-        <Formacion/>
-        <Experiencia/>
-        <Extracurriculares/>
-        <Competencias/>
-    </article>
+    <div class="p-10 md:p-0">
+        <Header/>
+        <article class="flex flex-col space-y-8">
+            <Formacion/>
+            <Experiencia/>
+            <Extracurriculares/>
+            <Competencias/>
+        </article>
+    </div>
 </Layout>
